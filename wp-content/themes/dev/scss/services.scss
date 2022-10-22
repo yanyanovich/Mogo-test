@@ -1,0 +1,211 @@
+.service {
+  padding: 110px 0;
+  background-color: $primary-white;
+  text-align: center;
+  @media screen and (max-width: $tablet) {
+    padding: 60px 0;
+  }
+  @media screen and (max-width: $mobile) {
+    padding: 30px 0;
+  }
+  &__subtitle {
+    @extend %subtitles;
+  }
+  &__title {
+    @extend %titles;
+  }
+  &__title::after {
+    content: "";
+    margin: 40px auto;
+    display: block;
+    width: 120px;
+    height: 3px;
+    background-color: #f38181;
+    @media screen and (max-width: $tablet) {
+      margin: 20px auto;
+    }
+    @media screen and (max-width: $mobile) {
+      margin: 10px auto;
+    }
+  }
+  &__text {
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #999999;
+    max-width: 960px;
+    margin: 0 auto;
+    margin-bottom: 95px;
+    @media screen and (max-width: $tablet) {
+      margin-bottom: 50px;
+    }
+    @media screen and (max-width: $mobile) {
+      margin-bottom: 25px;
+    }
+  }
+  &__container {
+    display: flex;
+    column-gap: 30px;
+    @media screen and (max-width: $tablet) {
+      flex-wrap: wrap;
+    }
+  }
+  &__image-block {
+    img {
+      max-width: 100%;
+    }
+    @media screen and (max-width: $tablet) {
+      width: 100%;
+    }
+  }
+  .accordion {
+    width: 100%;
+    @media screen and (max-width: $tablet) {
+      margin-top: 50px;
+    }
+    @media screen and (max-width: $mobile) {
+      margin-top: 25px;
+    }
+  }
+  .card {
+    min-width: 110%;
+    @media screen and (max-width: $tablet) {
+      min-width: 100%;
+    }
+  }
+  .card:nth-child(2) {
+    margin: 10px 0;
+  }
+  .collapse.show {
+    display: flex;
+    height: 180px;
+    .card-body {
+      text-align: left;
+      overflow: scroll;
+      overflow-x: hidden;
+      font-family: $roboto;
+      font-size: 15px;
+      background: transparent;
+      font-weight: 300;
+    }
+    .card-body::-webkit-scrollbar {
+      width: 5px;
+      height: 8px;
+      background-color: #f5f5f5; /* or add it to the track */
+    }
+    .card-body::-webkit-scrollbar-thumb {
+      background: #95e1d3;
+    }
+  }
+  .card-header {
+    text-align: left;
+    background: transparent;
+    .mb-0 {
+      padding: 0;
+      position: relative;
+    }
+    .mb-0 .btn.btn-link {
+      text-transform: uppercase;
+      text-decoration: none;
+      color: $titles-color;
+      margin-left: 30px;
+    }
+  }
+  #headingOne {
+    .mb-0 .btn.btn-link::after {
+      content: "";
+      background-image: url("http://localhost:8888/WP%20dev//wp-content/themes/dev/img/photography.png");
+      width: 30px;
+      height: 30px;
+      background-repeat: no-repeat;
+      flex-shrink: 0;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background-position: center;
+    }
+  }
+  #headingOne {
+    .mb-0 .btn.btn-link.collapsed::before {
+      transform: rotate(180deg);
+    }
+    .mb-0 .btn.btn-link::before {
+      content: "";
+      background-image: url("http://localhost:8888/WP%20dev//wp-content/themes/dev/img/arrow.png");
+      width: 30px;
+      height: 30px;
+      background-repeat: no-repeat;
+      flex-shrink: 0;
+      position: absolute;
+      // transform: rotate(180deg);
+      right: 0;
+      top: 0;
+      background-position: center;
+    }
+  }
+  #headingTwo {
+    .mb-0 .btn.btn-link::after {
+      content: "";
+      background-image: url("http://localhost:8888/WP%20dev//wp-content/themes/dev/img/creative.png");
+      width: 30px;
+      height: 30px;
+      background-repeat: no-repeat;
+      flex-shrink: 0;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background-position: center;
+    }
+  }
+  #headingTwo {
+    .mb-0 .btn.btn-link.collapsed::before {
+      transform: rotate(180deg);
+    }
+    .mb-0 .btn.btn-link::before {
+      content: "";
+      background-image: url("http://localhost:8888/WP%20dev//wp-content/themes/dev/img/arrow.png");
+      width: 30px;
+      height: 30px;
+      background-repeat: no-repeat;
+      flex-shrink: 0;
+      position: absolute;
+      // transform: rotate(180deg);
+      right: 0;
+      top: 0;
+      background-position: center;
+    }
+  }
+  #headingThree {
+    .mb-0 .btn.btn-link::after {
+      content: "";
+      background-image: url("http://localhost:8888/WP%20dev//wp-content/themes/dev/img/web_design.png");
+      width: 30px;
+      height: 30px;
+      background-repeat: no-repeat;
+      flex-shrink: 0;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background-position: center;
+    }
+  }
+  #headingThree {
+    .mb-0 .btn.btn-link.collapsed::before {
+      transform: rotate(180deg);
+    }
+    .mb-0 .btn.btn-link::before {
+      content: "";
+      background-image: url("http://localhost:8888/WP%20dev//wp-content/themes/dev/img/arrow.png");
+      width: 30px;
+      height: 30px;
+      background-repeat: no-repeat;
+      flex-shrink: 0;
+      position: absolute;
+      // transform: rotate(180deg);
+      right: 0;
+      top: 0;
+      background-position: center;
+    }
+  }
+}

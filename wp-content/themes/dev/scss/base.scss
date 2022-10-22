@@ -1,0 +1,31 @@
+body {
+  font-family: $main-font;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  color: $main-text-color;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $titles-color;
+}
+dl,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}

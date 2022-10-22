@@ -1,0 +1,281 @@
+# Translation of Themes - Twenty Twenty-Two in Ukrainian
+# This file is distributed under the same license as the Themes - Twenty Twenty-Two package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-08-31 10:32:47+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: uk_UA\n"
+"Project-Id-Version: Themes - Twenty Twenty-Two\n"
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "Twenty Twenty-Two"
+msgstr "Twenty Twenty-Two"
+
+#: inc/patterns/hidden-404.php:14
+msgid "Search"
+msgstr "Пошук"
+
+#: inc/patterns/hidden-404.php:14
+msgctxt "label"
+msgid "Search"
+msgstr "Пошук"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr "Підвал"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header (Dark, small)"
+msgstr "Заголовок (темний, маленький)"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header (Dark, large)"
+msgstr "Заголовок (темний, великий)"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr "Заголовок"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Blank"
+msgstr "Порожній"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page (No Separators)"
+msgstr "Сторінка (без роздільників)"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single Post (No Separators)"
+msgstr "Окремий запис (без роздільників)"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page (Large Header)"
+msgstr "Сторінка (великий заголовок)"
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Primary and tertiary"
+msgstr "Основний та третинний"
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Primary and secondary"
+msgstr "Основний та вторинний"
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Foreground and tertiary"
+msgstr "Передній план та третинний"
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Foreground and secondary"
+msgstr "Передній план та вторинний"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal background to tertiary"
+msgstr "Діагональний від фонового до третинного"
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Foreground and background"
+msgstr "Передній план та фон"
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Primary and background"
+msgstr "Основний і фон"
+
+#: theme.json styles/blue.json styles/pink.json styles/swiss.json
+msgctxt "Color name"
+msgid "Tertiary"
+msgstr "Третинний"
+
+#: theme.json styles/blue.json styles/pink.json styles/swiss.json
+msgctxt "Color name"
+msgid "Secondary"
+msgstr "Вторинний"
+
+#: theme.json styles/blue.json styles/pink.json styles/swiss.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr "Основний"
+
+#: theme.json styles/blue.json styles/pink.json styles/swiss.json
+msgctxt "Color name"
+msgid "Background"
+msgstr "Фон"
+
+#: theme.json styles/blue.json styles/pink.json styles/swiss.json
+msgctxt "Color name"
+msgid "Foreground"
+msgstr "Передній план"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "System Font"
+msgstr "Системний шрифт"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Source Serif Pro"
+msgstr "Source Serif Pro"
+
+#: inc/patterns/general-pricing-table.php:43
+msgctxt "Second item in a numbered list."
+msgid "2"
+msgstr "2"
+
+#: inc/patterns/general-pricing-table.php:71
+msgctxt "Third item in a numbered list."
+msgid "3"
+msgstr "3"
+
+#: inc/patterns/general-pricing-table.php:56
+msgid "$75"
+msgstr "75₴"
+
+#: inc/patterns/general-pricing-table.php:28
+msgid "$25"
+msgstr "25₴"
+
+#: inc/patterns/general-pricing-table.php:15
+msgctxt "First item in a numbered list."
+msgid "1"
+msgstr "1"
+
+#: inc/patterns/footer-blog.php:50 inc/patterns/footer-dark.php:18
+#: inc/patterns/footer-default.php:18 inc/patterns/footer-logo.php:18
+#: inc/patterns/footer-navigation.php:20
+#: inc/patterns/footer-query-images-title-citation.php:35
+#: inc/patterns/footer-query-title-citation.php:33
+msgid "https://wordpress.org"
+msgstr "https://uk.wordpress.org"
+
+#: inc/block-patterns.php:21
+msgid "Pages"
+msgstr "Сторінки"
+
+#: inc/block-patterns.php:20
+msgid "Query"
+msgstr "Запит"
+
+#: inc/block-patterns.php:19
+msgid "Headers"
+msgstr "Заголовки"
+
+#: inc/block-patterns.php:18
+msgid "Footers"
+msgstr "Підвали"
+
+#: inc/patterns/page-sidebar-blog-posts-right.php:80
+msgid "Tags"
+msgstr "Позначки"
+
+#: inc/patterns/page-layout-two-columns.php:58
+msgid "POSTS"
+msgstr "ЗАПИСИ"
+
+#: inc/patterns/page-layout-two-columns.php:21
+msgid "WELCOME"
+msgstr "ЛАСКАВО ПРОСИМО"
+
+#: inc/patterns/page-layout-image-and-text.php:15
+msgctxt "Short for to be determined"
+msgid "TBD"
+msgstr "Визначиться пізніше"
+
+#: inc/patterns/hidden-404.php:9
+msgctxt "Error code for a webpage that is not found."
+msgid "404"
+msgstr "404"
+
+#: inc/patterns/hidden-404.php:6
+msgid "404 content"
+msgstr "Вміст сторінки 404"
+
+#: inc/patterns/general-pricing-table.php:84
+msgid "$150"
+msgstr "150₴"
+
+#: inc/patterns/general-large-list-names.php:30
+msgid "Read more"
+msgstr "Читати далі"
+
+#: inc/patterns/page-sidebar-poster.php:44
+msgid "February, 12 2021"
+msgstr "12 Лютого 2021"
+
+#: inc/patterns/page-sidebar-poster.php:40
+msgid "Date"
+msgstr "Дата"
+
+#: inc/patterns/page-about-links.php:6
+msgid "About page links"
+msgstr "Посилання сторінки \"про нас\""
+
+#: inc/patterns/page-about-links.php:17
+msgid "Swoop"
+msgstr "Наліт"
+
+#: inc/patterns/footer-blog.php:31
+#: inc/patterns/page-sidebar-blog-posts-right.php:74
+msgid "Categories"
+msgstr "Категорії"
+
+#: inc/patterns/footer-blog.php:23 inc/patterns/general-featured-posts.php:10
+msgid "Latest posts"
+msgstr "Останні записи"
+
+#: inc/patterns/footer-blog.php:6
+msgid "Blog footer"
+msgstr "Підвал блогу"
+
+#: inc/block-patterns.php:17
+msgid "Featured"
+msgstr "Вибрані"
+
+#: inc/patterns/page-sidebar-poster.php:52
+msgid "Location"
+msgstr "Розташування"
+
+#: inc/patterns/general-wide-image-intro-buttons.php:31
+msgid "Learn More"
+msgstr "Дізнатись більше"
+
+#: inc/patterns/footer-about-title-logo.php:13 inc/patterns/footer-blog.php:13
+msgid "About us"
+msgstr "Про нас"
+
+#: inc/patterns/general-list-events.php:79
+msgid "Amy Jensen"
+msgstr "Amy Jensen"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://wordpress.org/themes/twentytwentytwo/"
+msgstr "https://uk.wordpress.org/themes/twentytwentytwo/"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "the WordPress team"
+msgstr "Команда WordPress"
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://wordpress.org/"
+msgstr "https://uk.wordpress.org/"

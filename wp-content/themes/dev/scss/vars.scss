@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@300;400&display=swap");
+$main-text-color: #999999;
+$titles-color: #333333;
+$main-font-size: 14px;
+$main-font: "Montserrat", sans-serif;
+$secondary-font: "Kaushan Script", cursive;
+$roboto: "Roboto", sans-serif;
+$primary-white: #ffffff;
+$mobile: 500px;
+$tablet: 1000px;
+%subtitles {
+  font-family: $secondary-font;
+  font-size: 24px;
+  color: $titles-color;
+}
+%titles {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $titles-color;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}

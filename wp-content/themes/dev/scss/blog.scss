@@ -1,0 +1,120 @@
+.blog {
+  padding: 110px 0;
+  background-color: $primary-white;
+  text-align: center;
+  @media screen and (max-width: $tablet) {
+    padding: 60px 0;
+  }
+  &__subtitle {
+    @extend %subtitles;
+  }
+  &__title {
+    @extend %titles;
+  }
+  &__title::after {
+    content: "";
+    margin: 40px auto;
+    display: block;
+    width: 120px;
+    height: 3px;
+    background-color: #f38181;
+    @media screen and (max-width: $tablet) {
+      margin: 20px auto;
+    }
+  }
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(-1 * 30px);
+  }
+  &__item {
+    flex-basis: calc(100% / 3 - 30px);
+    margin-left: 30px;
+    @media screen and (max-width: $tablet) {
+      flex-basis: calc(100% / 2 - 30px);
+    }
+    @media screen and (max-width: $mobile) {
+      flex-basis: calc(100% / 1 - 30px);
+      margin-top: 20px;
+    }
+  }
+  &__cart-media {
+    position: relative;
+    img {
+      width: 100%;
+    }
+  }
+  &__date-block {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 10px;
+    left: -15px;
+    padding: 15px;
+    background-color: #95e1d3;
+    .cart-date {
+      font-size: 30px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: $primary-white;
+    }
+    .cart-month {
+      font-family: Roboto;
+      font-size: 15px;
+      font-weight: 300;
+      font-style: italic;
+      text-transform: none;
+    }
+  }
+  &__cart-body {
+    text-align: left;
+    .cart-title {
+      margin-top: 20px;
+      text-transform: uppercase;
+      color: $titles-color;
+    }
+    .cart-text {
+      font-family: $roboto;
+      font-size: 15px;
+      line-height: 24px;
+      font-weight: 400;
+      color: $main-text-color;
+    }
+  }
+  &__cart-footer {
+    border-top: 1px solid #e5e5e5;
+    padding-top: 20px;
+    text-align: left;
+    gap: 15px;
+    .cart-views,
+    .cart-coments {
+      display: inline-flex;
+      align-items: center;
+      font-family: $roboto;
+      font-size: 15px;
+      font-weight: 300;
+      font-style: italic;
+      color: $main-text-color;
+      fill: #95e1d3;
+    }
+    .cart-views svg,
+    .cart-coments svg {
+      margin-right: 10px;
+    }
+    .cart-coments {
+      margin-left: 15px;
+    }
+  }
+  &__button {
+    margin-top: 50px;
+    .button-more {
+      padding: 10px;
+      background-color: #f38181;
+      font-size: 14px;
+      font-size: 15px;
+      line-height: 24px;
+      font-weight: 400;
+      color: $primary-white;
+    }
+  }
+}

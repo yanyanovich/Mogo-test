@@ -1,0 +1,205 @@
+# Translation of Plugins - Duplicate Page - Development (trunk) in Ukrainian
+# This file is distributed under the same license as the Plugins - Duplicate Page - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-12-21 08:03:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: uk_UA\n"
+"Project-Id-Version: Plugins - Duplicate Page - Development (trunk)\n"
+
+#: duplicatepage.php:132
+msgid "Unauthorized Access."
+msgstr "Неавторизований доступ."
+
+#: inc/admin-settings.php:85
+msgid "Save Changes"
+msgstr "Зберегти зміни"
+
+#: inc/admin-settings.php:13
+msgid "<div class=\"saving-txt\"><strong>Saving Please wait...</strong></div>"
+msgstr "<div class=\"saving-txt\"><strong>Збереження, будь ласка, зачекайте...</strong></div>"
+
+#: duplicatepage.php:345
+msgid "Never"
+msgstr "Ніколи"
+
+#: duplicatepage.php:345
+msgid "Not interested"
+msgstr "Не зацікавлений"
+
+#: duplicatepage.php:345
+msgid "Rate Us"
+msgstr "Оцініть нас"
+
+#: duplicatepage.php:345
+msgid "Rate us now"
+msgstr "Оцініть нас зараз"
+
+#: duplicatepage.php:345
+msgid "Later"
+msgstr "Пізніше"
+
+#: duplicatepage.php:345
+msgid "Remind me later"
+msgstr "Нагадайте пізніше"
+
+#: duplicatepage.php:345
+msgid "We love and care about you. Our team is putting maximum efforts to provide you the best functionalities. It would be highly appreciable if you could spend a couple of seconds to give a Nice Review to the plugin to appreciate our efforts. So we can work hard to provide new features regularly :)"
+msgstr "Ми любимо і піклуємося про вас. Наша команда докладає максимум зусиль, щоб надати вам найкращі можливості. Для нас буде дуже важливо, якщо ви витратите декілька секунд, щоб дати гарний відгук плагіну та оцінити наші зусилля. Тож ми можемо наполегливо працювати, щоб регулярно надавати нові функції :)"
+
+#: duplicatepage.php:345
+msgid "close"
+msgstr "закрити"
+
+#: duplicatepage.php:138
+msgid "Security check issue, Please try again."
+msgstr "Проблема перевірки безпеки. Повторіть, будь ласка, спробу."
+
+#: duplicatepage.php:237
+msgid "Error! Post creation failed, could not find original post: "
+msgstr "Помилка! Не вдалося створити запис, не знайдено оригінал: "
+
+#: duplicatepage.php:157
+msgid "No post to duplicate has been supplied!"
+msgstr "Жодного запису для дублювання не надано!"
+
+#: duplicatepage.php:78
+msgid "Donate Now"
+msgstr "Пожертвувати зараз"
+
+#: inc/admin-settings.php:49
+msgid "All Editors"
+msgstr "Усі редактори"
+
+#: duplicatepage.php:249 duplicatepage.php:265 duplicatepage.php:289
+msgid "Duplicate this as "
+msgstr "Дублювати це як "
+
+#: inc/admin-settings.php:53
+msgid "Please select which editor you are using.<strong> Default: </strong> Classic Editor"
+msgstr "Будь ласка, виберіть редактор, який ви використовуєте. <strong>За замовчанням:</strong> Класичний редактор"
+
+#: inc/admin-settings.php:51
+msgid "Gutenberg Editor"
+msgstr "Редактор Gutenberg"
+
+#: inc/admin-settings.php:50
+msgid "Classic Editor"
+msgstr "Класичний редактор"
+
+#: inc/admin-settings.php:46
+msgid "Choose Editor"
+msgstr "Оберіть редактор"
+
+#: duplicatepage.php:316
+msgid "Duplicate This as "
+msgstr "Дублювати це як "
+
+#: inc/admin-settings.php:63
+msgid "Pending"
+msgstr "Очікує на розгляд"
+
+#: inc/admin-settings.php:62
+msgid "Private"
+msgstr "Приватний"
+
+#: inc/admin-settings.php:61
+msgid "Publish"
+msgstr "Опубліковано"
+
+#: inc/admin-settings.php:60
+msgid "Draft"
+msgstr "Чернетка"
+
+#. Author URI of the plugin
+msgid "https://profiles.wordpress.org/mndpsingh287/"
+msgstr "https://profiles.wordpress.org/mndpsingh287/"
+
+#. Author of the plugin
+msgid "mndpsingh287"
+msgstr "mndpsingh287"
+
+#. Description of the plugin
+msgid "Duplicate Posts, Pages and Custom Posts using single click."
+msgstr "Дублювання записів, сторінок та користувацьких записів за допомогою одного натискання."
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/duplicate-page/"
+msgstr "https://wordpress.org/plugins/duplicate-page/"
+
+#: duplicatepage.php:249 duplicatepage.php:265 duplicatepage.php:288
+msgid "Duplicate This"
+msgstr "Дублювати"
+
+#. Plugin Name of the plugin
+#: duplicatepage.php:91 duplicatepage.php:345
+msgid "Duplicate Page"
+msgstr "Duplicate Page"
+
+#: duplicatepage.php:78
+msgid "Donate"
+msgstr "Пожертва"
+
+#: duplicatepage.php:77
+msgid "Settings"
+msgstr "Налаштування"
+
+#: inc/admin-settings.php:81
+msgid "Add a suffix for duplicate or clone post as Copy, Clone etc. It will show after title."
+msgstr "Додайте суфікс до дубліката, напр. копія, клон і т.п. Він буде доданий наприкінці заголовка."
+
+#: inc/admin-settings.php:78
+msgid "Duplicate Post Suffix"
+msgstr "Суфікс дубльованого запису"
+
+#: inc/admin-settings.php:74
+msgid "Please select any post redirection, redirect you to selected after click on duplicate this link.<strong> Default: </strong>To All Posts List"
+msgstr "Будь ласка, виберіть варіант перенаправлення, щоб перенаправити вас до вибраного варіанту після натискання на \"Дублювати\". <strong>За замовчанням:</strong> До списку всіх записів"
+
+#: inc/admin-settings.php:72
+msgid "To Duplicate Edit Screen"
+msgstr "До редагування дублікату"
+
+#: inc/admin-settings.php:71
+msgid "To All Posts List"
+msgstr "До списку всіх записів"
+
+#: inc/admin-settings.php:69
+msgid "Redirect to after click on <strong>Duplicate This Link</strong>"
+msgstr "Перенаправлення після натискання на <strong>Дублювати це посилання</strong>"
+
+#: inc/admin-settings.php:65
+msgid "Please select any post status you want to assign for duplicate post.<strong> Default: </strong> Draft"
+msgstr "Будь ласка, виберіть статус запису, який ви хочете призначити дублікату. <strong>За замовчанням:</strong> Чернетка"
+
+#: inc/admin-settings.php:57
+msgid "Duplicate Post Status"
+msgstr "Статус дубльованого запису"
+
+#: inc/admin-settings.php:34
+msgid ""
+"<div class=\"error settings-error notice is-dismissible\" id=\"setting-error-settings_updated\"> \n"
+"  <p><strong>Settings not saved.</strong></p><button class=\"notice-dismiss button-custom-dismiss\" type=\"button\"><span class=\"screen-reader-text\">Dismiss this notice</span></button></div>"
+msgstr ""
+"<div class=\"error settings-error notice is-dismissible\" id=\"setting-error-settings_updated\"> ↵\n"
+"  <p><strong>Налаштування не збережено.</strong></p><button class=\"notice-dismiss button-custom-dismiss\" type=\"button\"><span class=\"screen-reader-text\">Відхилити це повідомлення</span></button></div>"
+
+#: inc/admin-settings.php:31
+msgid ""
+"<div class=\"updated settings-error notice is-dismissible\" id=\"setting-error-settings_updated\"> \n"
+"    <p><strong>Settings saved.</strong></p><button class=\"notice-dismiss button-custom-dismiss\" type=\"button\"><span class=\"screen-reader-text\">Dismiss this notice</span></button></div>"
+msgstr ""
+"<div class=\"updated settings-error notice is-dismissible\" id=\"setting-error-settings_updated\"> ↵\n"
+"    <p><strong>Налаштування збережено.</strong></p><button class=\"notice-dismiss button-custom-dismiss\" type=\"button\"><span class=\"screen-reader-text\">Відхилити це повідомлення</span></button></div>"
+
+#: inc/admin-settings.php:9
+msgid "Buy PRO"
+msgstr "Купити PRO"
+
+#: inc/admin-settings.php:9
+msgid "Duplicate Page Settings "
+msgstr "Налаштування Duplicate Page "
