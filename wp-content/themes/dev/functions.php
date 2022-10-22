@@ -90,3 +90,65 @@ function register_post_types()
     'query_var'           => true,
   ]);
 }
+
+
+
+// add shortcode blog
+function blog_shortcode_function($atts, $content = null)
+{
+  global $post;
+  extract(shortcode_atts(array(
+    'num'     => '5',
+    'order'   => 'DESC',
+    'orderby' => 'post_date',
+  ), $atts));
+
+  $args = array(
+    'posts_per_page' => $num,
+    'order'          => $order,
+    'orderby'        => $orderby,
+  );
+
+  $my_query = new WP_Query($args);
+  if ($my_query->have_posts()) :
+    while ($my_query->have_posts()) : $my_query->the_post();
+      get_template_part('template-parts/single', 'blog');
+    endwhile;
+  else :
+    get_template_part('template-parts/signle', 'none');
+
+  endif;
+}
+add_shortcode('recent_posts', 'blog_shortcode_function');
+
+// add shortcode team
+function team_shortcode_function($atts, $content = null)
+{
+  global $post;
+  extract(shortcode_atts(array(
+    'post_type' => 'team',
+    'num'     => '5',
+    'order'   => 'DESC',
+    'orderby' => 'post_date',
+  ), $atts));
+
+  $args = array(
+    'post_type' => $post_type,
+    'posts_per_page' => $num,
+    'order'          => $order,
+    'orderby'        => $orderby,
+  );
+
+  $my_query = new WP_Query($args);
+  if ($my_query->have_posts()) :
+    // Start the loop.
+    while ($my_query->have_posts()) : $my_query->the_post();
+      get_template_part('template-parts/team-content', 'team');
+
+    endwhile;
+  else :
+    get_template_part('template-parts/signle', 'none');
+
+  endif;
+}
+add_shortcode('recent_posts_team', 'team_shortcode_function');

@@ -172,5 +172,11 @@ Template Name: Main Page
       </div>
     </div>
   </section>
+  <!--<section>-->
+  <!--    <ul class="team__list">-->
+  <!--    <?php echo do_shortcode('[recent_posts_team num = "3"]'); ?>-->
+  <!--<?php echo do_shortcode('[recent_posts num = "3"]'); ?>-->
+  <!--    </ul>-->
+  <!--</section>-->
 </main>
 <?php get_footer(); ?>
