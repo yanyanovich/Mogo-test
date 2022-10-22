@@ -33,17 +33,6 @@ function load_js()
 add_action('wp_enqueue_scripts', 'load_js');
 
 
-
-
-
-// Nav Menus
-register_nav_menus(array(
-  'top-menu' => __('Top Menu', 'theme'),
-  'footer-menu1' => __('Footer Menu1', 'theme'),
-  'footer-menu2' => __('Footer Menu2', 'theme'),
-  'footer-menu3' => __('Footer Menu3', 'theme'),
-));
-
 // Theme Support
 add_theme_support('menus');
 add_theme_support('post-thumbnails');
@@ -51,37 +40,7 @@ add_theme_support('post-thumbnails');
 // Image Sizes
 add_image_size('small', 600, 600, false);
 
-//page option
-
-if (function_exists('acf_add_options_page')) {
-  acf_add_options_sub_page(array(
-    'page_title'   => 'Настройки шапки',
-    'menu_title'  => 'Шапка',
-    'parent_slug'  => 'theme-general-settings',
-  ));
-}
-
-if (function_exists('acf_add_options_page')) {
-  acf_add_options_sub_page(array(
-    'page_title'   => 'Настройки подвала',
-    'menu_title'  => 'Подвал',
-    'parent_slug'  => 'theme-general-settings',
-  ));
-}
-if (function_exists('acf_add_options_page')) {
-
-  acf_add_options_page();
-}
 add_filter('upload_mimes', 'svg_upload_allow');
-
-# Добавляет SVG в список разрешенных для загрузки файлов.
-function svg_upload_allow($mimes)
-{
-  $mimes['svg']  = 'image/svg+xml';
-
-  return $mimes;
-}
-
 // нові мінатюри для blog
 add_image_size('blog_image', 380, 240, true);
 // нові мінатюри для team
